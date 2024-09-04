@@ -16,6 +16,7 @@ menu:
 - {name: 'Testing',             url: 'testing'}
 - {name: 'Kubernetes',          url: 'kubernetes'}
 - {name: 'Chaos',               url: 'chaos'}
+- {name: 'CS',                  url: 'computer-science'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
