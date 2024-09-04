@@ -4,7 +4,7 @@ title: "InterviewBit"
 author: "Leonardo Marques"
 categories: dsa
 tags: [dsa, programming language, java]
-image: leetcode.png
+image: interviewbit.jpg
 ---
 
 ***InterviewBit is one of the most popular interview preparation websites. Hundreds of thousands of elite software engineers around the globe have joined the platform to upskill themselves.***
