@@ -3,7 +3,7 @@ layout: post
 title: "Database"
 author: "Leonardo Marques"
 categories: database
-tags: [database]
+tags: [sample]
 image: database.jpg
 ---
 
