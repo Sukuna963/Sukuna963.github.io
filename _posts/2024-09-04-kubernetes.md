@@ -2,7 +2,7 @@
 layout: post
 title: "Software"
 author: "Leonardo Marques"
-categories: software
-tags: [software]
-image: software.jpg
+categories: kubernetes
+tags: [kubernetes]
+image: kubernetes.jpg
 ---

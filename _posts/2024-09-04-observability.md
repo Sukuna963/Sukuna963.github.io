@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Software"
+title: "Observability"
 author: "Leonardo Marques"
-categories: software
-tags: [software]
-image: software.jpg
+categories: observability
+tags: [observability]
+image: observability.jpg
 ---
