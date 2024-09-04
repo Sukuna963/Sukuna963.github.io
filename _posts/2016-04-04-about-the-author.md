@@ -3,7 +3,7 @@ layout: post
 title: "Cloud Engineering"
 author: "Leonardo Marques"
 categories: AWS
-tags: [sample]
+tags: [cloud]
 image: aws-logo.jpeg
 ---
 [WorkShop](https://workshops.aws/)
