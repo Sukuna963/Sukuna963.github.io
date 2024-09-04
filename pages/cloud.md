@@ -1,6 +1,6 @@
 ---
 layout: category
-title: aws
+title: cloud
 category: cloud
-permalink: /aws
+permalink: /cloud
 ---
