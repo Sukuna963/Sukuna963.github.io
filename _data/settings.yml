@@ -12,6 +12,7 @@ menu:
 - {name: 'Kafka',               url: 'kafka'}
 - {name: 'Python',              url: 'python'}
 - {name: 'Java',                url: 'java'}
+- {name: 'Software',            url: 'software'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
