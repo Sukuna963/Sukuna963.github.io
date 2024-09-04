@@ -7,9 +7,9 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Cloud',  url: 'cloud'}
-- {name: 'Database', url: 'database'}
-- {name: 'Sample Posts',       url: 'sample-posts'}
+- {name: 'Cloud',     url: 'cloud'}
+- {name: 'Database',  url: 'database'}
+- {name: 'Kafka',     url: 'kafka'}
 - {name: 'Documentation',      url: 'documentation'}
 - {name: 'About',              url: 'about'}
 - {name: 'Contact',            url: 'contact'}
