@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Software"
+title: "Kubernetes"
 author: "Leonardo Marques"
 categories: kubernetes
 tags: [kubernetes]
-image: kubernetes.jpg
+image: kubernetes.png
 ---
