@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Interesting Facts
-category: facts
-permalink: /facts
+title: AWS
+category: Cloud
+permalink: /AWS
 ---
