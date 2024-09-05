@@ -7,7 +7,7 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'CS',                  url: 'computer-science'}
+- {name: 'CS',                  url: 'computer science'}
 - {name: 'Software',            url: 'software'}
 - {name: 'Python',              url: 'python'}
 - {name: 'Java',                url: 'java'}
