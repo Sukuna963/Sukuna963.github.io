@@ -9,7 +9,8 @@ image: distributed-system/ds-udi.jpg
 
 # Distributed Systems Design Fundamentals
 
-| [Course](https://learn.particular.net/courses/distributed-systems-design-fundamentals-online) |
+| [Course](https://learn.particular.net/courses/distributed-systems-design-fundamentals-online) 
+|
 
 Welcome to the Distributed Systems Design Fundamentals course.
 
@@ -98,6 +99,8 @@ Sagas: Event Choreography & Orchestration (NServiceBus)
 [![sagas](https://i.ytimg.com/vi/rO9BXsl4AMQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=rO9BXsl4AMQ)
 
 ## Saga Design
+
+Now that you've learned the theory behind orchestration and sagas, it's time to practice. In this exercise, you will design a saga that orchestrates the buying of digital goods in the mobile gaming space. Udi discusses different considerations and potential solutions.
 
 ### Saga Overview
 ![saga exercise](/assets/img/distributed-system/saga-exercises.png)
