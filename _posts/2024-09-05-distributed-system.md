@@ -4,10 +4,12 @@ title: "Distributed Systems Design Fundamentals"
 author: "Leonardo Marques"
 categories: software
 tags: [software, computer science]
-image: ds-udi.jpg
+image: distributed-system/ds-udi.jpg
 ---
 
 # Distributed Systems Design Fundamentals
+
+| [Course](https://learn.particular.net/courses/distributed-systems-design-fundamentals-online) |
 
 Welcome to the Distributed Systems Design Fundamentals course.
 
@@ -78,3 +80,33 @@ In this module, Udi explains how messaging can solve most of your service-to-ser
 - [Messaging](https://docs.particular.net/nservicebus/messaging/?_gl=1*1o2bc9q*_ga*mtm0njiymdg1ns4xnzizntqwmzgw*_ga_gmz1fs541b*mtcyntuynje5ns40mc4xlje3mju1mjg5mtkumc4wlja.)
 
 - [Async/await webinar series ](https://particular.net/webinars/async-await-best-practices?_gl=1*1jxoymk*_ga*MTM0NjIyMDg1NS4xNzIzNTQwMzgw*_ga_GMZ1FS541B*MTcyNTUyNjE5NS40MC4xLjE3MjU1Mjg5OTEuMC4wLjA.)
+
+## Sagas/Long-Running Business Processes Modelling
+
+The distributed communication patterns wouldn't be complete without a discussion on orchestration. In almost any event-driven architecture, you’ll have services managing multiple events in order to make decisions. The saga pattern is a great fit there, and not at all difficult to implement.
+
+- [Sagas](https://docs.particular.net/nservicebus/sagas/?_gl=1*1nh2cmq*_ga*mtm0njiymdg1ns4xnzizntqwmzgw*_ga_gmz1fs541b*mtcynty0ndm2nc40oc4xlje3mju2nduxmtuumc4wlja.)
+
+- [Simple Saga Usage](https://docs.particular.net/samples/saga/simple/?_gl=1*v3wkv9*_ga*mtm0njiymdg1ns4xnzizntqwmzgw*_ga_gmz1fs541b*mtcynty0ndm2nc40oc4xlje3mju2nduxotaumc4wlja.)
+
+- [Pattern: Saga](https://microservices.io/patterns/data/saga.html)
+
+- [NServiceBus sagas: Integrations](https://docs.particular.net/tutorials/nservicebus-sagas/3-integration/)
+
+Sagas: Event Choreography & Orchestration (NServiceBus)
+
+[![sagas](https://i.ytimg.com/vi/rO9BXsl4AMQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=rO9BXsl4AMQ)
+
+## Saga Design
+
+### Saga Overview
+![saga exercise](/assets/img/distributed-system/saga-exercises.png)
+
+### Service Examples
+
+![service examples](/assets/img/distributed-system/service.png)
+
+
+### Similar To Hexagonal Architecture
+
+![hexagonal architecture](/assets/img/distributed-system/hexagonal.png)
