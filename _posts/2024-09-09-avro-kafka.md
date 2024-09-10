@@ -4,7 +4,7 @@ title: "Simple Avro Schema Registry with Spring Boot"
 author: "Leonardo Marques"
 categories: software
 tags: [kafka, java, api, docker]
-image: avro-kafka.png
+image: avro/avro-kafka.png
 ---
 
 # Simple Avro Schema Registry with Spring Boot
