@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Simple Avro Schema Registry with Spring Boot"
+title: "Spring Boot With Kong Api"
 author: "Leonardo Marques"
 categories: software
 tags: [java, api, docker, python]
