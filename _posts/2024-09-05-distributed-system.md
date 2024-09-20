@@ -7,8 +7,6 @@ tags: [software, computer science]
 image: distributed-system/ds-udi.jpg
 ---
 
-# Distributed Systems Design Fundamentals
-
 [Course](https://learn.particular.net/courses/distributed-systems-design-fundamentals-online)
 
 Welcome to the Distributed Systems Design Fundamentals course.

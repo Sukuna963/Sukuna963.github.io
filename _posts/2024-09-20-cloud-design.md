@@ -7,8 +7,6 @@ tags: [software, cloud]
 image: cloud-design/cloud.png
 ---
 
-# Cloud Architecture Design Patterns
-
 |
 [Course](https://www.coursera.org/learn/cloud-architecture-design-patterns)
 |
