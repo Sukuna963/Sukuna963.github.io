@@ -3,7 +3,7 @@ layout: post
 title: "Simple Avro Schema Registry with Spring Boot"
 author: "Leonardo Marques"
 categories: software
-tags: [kafka, java, api, docker]
+tags: [java, api, docker, python]
 image: kong/kong-spring.png
 ---
 
