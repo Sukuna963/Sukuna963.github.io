@@ -4,7 +4,7 @@ title: "Java 301 - Advanced Concepts"
 author: "Leonardo Marques"
 categories: java
 tags: [java, cs, programming-language, dsa]
-image: advanced-java/advanced-java.png
+image: advanced-java/Advanced-java.png
 ---
 
 |
