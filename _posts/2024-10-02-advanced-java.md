@@ -154,10 +154,10 @@ public your_return_type your_method() throws YourException{
 
 * The **BufferedInputStream** class is an example of buffering a Byte stream
 
-    #### Benefits of Buffering
-    1. Reducing I/O operations
-    2. Fluid and smooth data transfer
-    3. Reducing delays caused by the data source
+``Benefits of Buffering``
+1. Reducing I/O operations
+2. Fluid and smooth data transfer
+3. Reducing delays caused by the data source
 
 ### Reading & Writing Files with Character Streams
 * Files are often read using **FileReader**
@@ -188,9 +188,9 @@ public your_return_type your_method() throws YourException{
 
 * Multithreading improves processing efficiency
 
-    #### How to Create a Thread?
-    1. Implement the Runnable Interface
-    2. Extend the Thread class
+``How to Create a Thread?``
+1. Implement the Runnable Interface
+2. Extend the Thread class
 
 ### Implement Runnable Interface
 * Java threads can be created by implementing the **Runnable** interface
@@ -231,10 +231,10 @@ public your_return_type your_method() throws YourException{
 
 * Threads are joined using the **join()** method
 
-    #### Three Types of the Join Method
-    1. join()
-    2. join(long millis)
-    3. join(long millis, int nanos)
+``Three Types of the Join Method``
+1. join()
+2. join(long millis)
+3. join(long millis, int nanos)
 
 ### Synchronizing Java Threads
 * The **synchronized** keyword ensures order in multithreading scenarios.
@@ -266,17 +266,17 @@ public your_return_type your_method() throws YourException{
 * A deadlock happens when at least two threads are waiting on each other
 * Resolving deadlocks can be done by looking at the logs, using debug mode, and dumping the JVM state
 
-    #### Program Components Affected by Deadlocks
-    * Resources
-    * Performance
-    * Data loss
-    * Troubleshooting
+``Program Components Affected by Deadlocks``
+* Resources
+* Performance
+* Data loss
+* Troubleshooting
 
-    #### Preventing Deadlocks
-    * Avoid manual multithread orchestration
-    * Keep each thread's code independent and encapsulated
-    * Apply timeouts to threads
-    * Use optimistic locking instead of synchronization
+``Preventing Deadlocks``
+* Avoid manual multithread orchestration
+* Keep each thread's code independent and encapsulated
+* Apply timeouts to threads
+* Use optimistic locking instead of synchronization
 
 ### Thread Livelock
 * A livelock is very similar to a deadlock
@@ -295,12 +295,297 @@ public your_return_type your_method() throws YourException{
 * Race conditions are hard to detect, debug, and prevent
 * Race conditions are often detected after receiving several tickets with complaints from the users
 
-    #### Steps to Debug
-    * Add debugging logs
-    * Apply attention while coding to resources affected by data corruption
-    * Add sleep delays to replicate the problem
+``Steps to Debug``
+* Add debugging logs
+* Apply attention while coding to resources affected by data corruption
+* Add sleep delays to replicate the problem
 
-    #### Steps to Prevent
-    * Make thread code independent and encapsulated
-    * Make shareable resources read-only
-    * Try optimistic locking
+``Steps to Prevent``
+* Make thread code independent and encapsulated
+* Make shareable resources read-only
+* Try optimistic locking
+
+# Generics
+* Generics is a functionality in Java that allows for flexible type declaration
+
+* Class definitions of generics type support abstraction
+
+* Class definitions of generics don't require type information
+
+* You indicate the data type of a generic class when you instantiate an object of a generic class
+
+* An **ArrayList** is an example of generics in Java - for instance **ArrayList<String> words = new ArrayList();**
+
+* Type erasure is when generic type parameters are replaced at compile time. For instance, all the method parameter types and return types in the ArrayList class
+
+* Type inference is when the instantiating constructor can infer the type in its declaration. For instance, **ArrayList<String> words = new ArrayList();** instead of ``ArrayList words = new ArrayList ();``
+
+### Java Generics and Primitive Types
+* Generics work only with object data types
+
+* You cannot use primitive data types with generics
+
+* **int** is a primitive data type, and **Integer** is its wrapper
+
+* Primitive wrapper classes offer additional functionality
+
+* You can explicitly and implicitly convert from the wrapper type to the primitive type
+
+### Generic Java Method
+* A generic method is a method that has generic parameter types and/or generic return types
+
+* Generic methods are used when only itself and not the entire class need the generic type
+
+* The generic parameter must be defined before the return type as well as in the parameter list
+
+### Generics with Bounded Types
+* Objects with generic types can limit the possible chosen types
+
+* A bounded type parameter is applied using the **extends** or **implements** keywords
+
+* Bounded type parameters can contain single or multiple bounds
+
+* Multiple bounds are separated using the **&** character
+
+```java
+public <Your_TYpe_Parameter extends Your_Bound> Type Method_Name() {...}
+```
+
+# Enumerations
+* Enumerations are sets of related items. For example, "North", "South", "East", and "West".
+
+* An enumeration is also referred to as an enum
+
+* An enum is a specific type in Java - similar to a class
+
+* Enums can be set with values and contain methods
+
+```java
+public enum Your_Enum {
+    YOUR_EXAMPLE_VALUE_1,
+    YOUR_EXAMPLE_VALUE_2,
+    YOUR_EXAMPLE_VALUE_3;
+}
+```
+
+# Lambda Expressions & Methods References
+
+### Anonymous Class
+* An anonymous class is created and initiated at the same time
+
+* An inner class is a class created inside of another
+
+* Anonymous classes are very often anonymous inner classes
+
+* An anonymous class can reduce code compared to creating an interface, creating a class that implements that interface, and then creating another class that uses the class that implements the interface
+
+### Functional Interface
+* A functional interface is just a normal **interface** in Java. But, a functional interface can only have one abstract method
+
+* The **@FunctionalInterface** annotation indicates that the following is a functional interface
+
+* There are several built-in functional interfaces in Java's **java.util.function** package
+
+* **Predicate**, **Function**, and **BinaryOperator** are functional interface examples built into the **java.util.function** package
+
+### Lambda Expressions
+* A lambda expression is an anonymous function
+
+* Lambda expressions can be created without belonging to a class
+
+* Lambdas were introduced in Java 8
+
+* The **->** operator separates a lambda's parameters from the method body
+
+* Lambdas can be used inside of **forEach()** method
+
+``Provided Lambda Examples``
+* Set a Lambda to a Variable
+
+* Lambda Expression with No Parameter
+
+* Passing a Lambda as a Method Parameter
+
+* List Processing with Lambdas
+
+```java
+your_variable = (yout_type your_parameter -> your_method_body)
+```
+
+### Method Reference
+* A method reference is used to reference a method without executing it
+
+* The **::** operator is used to separate the object and the method name
+
+* A method reference can be used when a lambda expression only calls one existing method
+
+``Four Types of Method References``
+* A method reference to a static method
+
+* A method reference to an instance method of an object of a particular type
+
+* A method reference to an instance method of an existing object
+
+* A method reference to a constructor
+
+``Static Method``
+* Syntax: **Class::staticMethod**
+
+* Arguments are automatically passed through the reference
+
+``Instance Method with a Particular Object``
+* Syntax: **Class::instanceMethod**
+
+* Arguments are automatically passed through the reference
+
+``Instance Method with an Arbitrary Object and Particular Type``
+* Syntax: **obj::instanceMethod**
+
+* Arguments are automatically passed through the reference
+
+``Static Method``
+* Syntax: **Class::new**
+
+* Arguments are not automatically passed through the reference
+
+* The Function or BiFunction classes are used to pass through arguments
+
+* The apply() method is used to pass through the argument to the constructor
+
+### Stream API
+* The **stream** API helps to iterate over a **Collection**
+
+* Streams reduce the length of your code and increase efficiency
+
+* Streams are compatible with functional interfaces and lambda expressions
+
+* Streams can contain terminal and non-terminal operations
+
+* Streams must contain one and only one terminal operation
+
+* Streams can contain zero or more non-terminal operations
+
+``Steps to Create Java Streams``
+* Obtain a stream
+
+* Call zero or more non-terminal operations on the stream
+
+* Call at least one terminal operation on the stream
+
+``Commonly Used Non-Terminal Operations``
+* **map()**
+
+* **filter()**
+
+* **sorted()**
+
+* **distinct()**
+
+* **limit()**
+
+* **skip()**
+
+``Commonly Used Terminal Operations``
+* **forEach()**
+
+* **toArray()**
+
+* **sum()**
+
+* **count()**
+
+* **min()/max()**
+
+* **collect()**
+
+* **anyMatch()/allMatch()**
+
+# Java Database Connectivity
+* JDBC stands for Java Database Connectivity
+
+* JDBC allows your application to efficiently connect to multiple databases
+
+* JDBC leverages separate drivers for each database
+
+* The JDBC lifecycle involves establishing a connection to a database, creating and executing 
+SQL statements, processing results, and finally, closing the connection to release resources.
+
+### MySQL Connector Java
+* The MySQL Connector connects your Java application to MySQL
+
+* The MySQL JDBC driver is called MySQL Connector/J
+
+* The classpath is a system variable that points Java to your project's dependencies
+
+* Adding dependencies to your classpath can be done manually or automatically
+
+* Dependency management and build tools like Maven and Gradle will automatically add dependencies to your classpath.
+
+### Connection
+* Many Java applications use a database connection and JDBC API
+
+* These applications have a six-stage connection process
+
+* The JDBC lifecycle involves establishing a connection to a database, creating and executing SQL statements, processing results, and finally, closing the connection to release resources.
+
+``JDBC Life Cycle``
+* Load the JDBC driver
+
+* Open a database connection
+
+* Create a **Statement** / **PreparedStatement** / **CallableStatement**
+
+* Execute SQL statements
+
+* Retrieve and potentially process the results of any SQL query
+
+* Close database connection
+
+### Connection Queries
+* There are three major JDBC query types
+
+1. Statements are used for general-purpose access to the database
+2. Prepared statements are used for repeated SQL queries
+3. Callable statements for accessing a database's stored procedure
+
+* Examples of INSERT, UPDATE, SELECT, and DELETE are provided for statements and prepared statements
+
+### ResultSet
+* The ResultSet is an interface in Java for iterating through table data
+
+* The next() is used to move the ResultSet cursor to the next row
+
+* The default ResultSet cannot be used to update data
+
+* The ResultSetMetaData stores the metadata of the ResultSet
+
+* Both the ResultSet and the ResultSetMetaData come with many built-in methods to access the data
+
+### ResultSet into a Java Object
+* Java objects allow query resultsets to be easily incorporated into an application
+
+* Mapping a **ResultSet** to a Java object requires a class that mirrors the desired table in the database
+
+* Often a **ResultSet** is mapped to an **ArrayList** of these objects
+
+* Mapping to Java objects can be done with simple and complex SQL queries
+
+### Java Hibernate ORM
+* Hibernate and Java Persistence API (JPA) are two commonly used ORMs
+
+* An ORM is an Object-Relational Mapping framework
+
+* ORMs facilitate integrating OOP Java applications with relational tables
+
+* The term "Object-Relational Impedance Mismatch" is used to describe the inherent challenges of integrating OOP applications with relational databases.
+
+``What are the Five Object-Relational Impedance Mismatch``
+* Granularity
+
+* Subtypes (inheritance)
+
+* Identity
+
+* Associations
+
+* Data navigation
