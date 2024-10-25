@@ -9,15 +9,7 @@ google-ID: 'UA-112060364-2'
 menu:
 - {name: 'CS',                  url: 'cs'}
 - {name: 'Software',            url: 'software'}
-- {name: 'Python',              url: 'python'}
-- {name: 'Java',                url: 'java'}
 - {name: 'Cloud',               url: 'cloud'}
-- {name: 'Database',            url: 'database'}
-- {name: 'Kafka',               url: 'kafka'}
-- {name: 'API',                 url: 'api'}
-- {name: 'Testing',             url: 'testing'}
-- {name: 'Kubernetes',          url: 'kubernetes'}
-- {name: 'Chaos',               url: 'chaos'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
