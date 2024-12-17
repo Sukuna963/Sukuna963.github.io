@@ -2,7 +2,7 @@
 layout: post
 title: "Cloud Architecture Design Patterns"
 author: "Leonardo Marques"
-categories: cloud
+categories: course
 tags: [software, cloud]
 image: cloud-design/cloud.png
 ---

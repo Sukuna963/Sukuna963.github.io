@@ -2,7 +2,7 @@
 layout: post
 title: "Distributed Systems Design Fundamentals"
 author: "Leonardo Marques"
-categories: software
+categories: course
 tags: [software, computer science]
 image: distributed-system/ds-udi.jpg
 ---

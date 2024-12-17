@@ -2,7 +2,7 @@
 layout: post
 title: "Java 301 - Advanced Concepts"
 author: "Leonardo Marques"
-categories: software
+categories: course
 tags: [software]
 image: advanced-java/Advanced-java.png
 ---
