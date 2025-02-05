@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python Pocket Reference - FIFTH EDITION"
+title: "Python Pocket Reference (FIFTH EDITION)"
 author: "Mark Lutz"
 categories: book
 tags: [python]
